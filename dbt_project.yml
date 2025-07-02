@@ -41,11 +41,11 @@ models:
     # Applies to all files under models/example/
     intermediate:
       +schema: int
-
+    
     marts:
       +materialized: table
       +schema: marts
-      
+    
     staging:
       erp:
         +schema: stg_erp
